@@ -9,7 +9,7 @@ services:
       COMPOSER_MEMORY_LIMIT: -1
       APP_NAME: "WebStack Rev"
       ADMIN_HTTPS: "true"
-      APP_URL: ""
+      APP_URL: "https://wsl-falconchen.cloud.okteto.net/"
       APP_DEBUG: "false"
 
     ports:
