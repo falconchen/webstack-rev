@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  wsl:
+    image: falconchen/webstack-rev
+    container_name: "wsl_rev"
+    environment:
+      COMPOSER_MEMORY_LIMIT: -1
+      APP_NAME: "WebStack Rev"
+      ADMIN_HTTPS: "true"
+      APP_URL: ""
+
+    ports:
+      - 20006:80
